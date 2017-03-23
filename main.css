@@ -1,0 +1,28 @@
+
+body {
+   margin: 0;
+   background-color: #49EEEF;
+}
+canvas {
+   width: 100%;
+   height: 100%;
+}
+#info {
+	/*position: absolute;*/
+	/*top: 10px;*/
+	text-align: center;
+	/*z-index: 100;*/
+	/*display:block;*/
+   color: #49EEEF;
+   background: #210708; /* For browsers that do not support gradients */
+   background: -webkit-radial-gradient(#210708, #292A2A); /* Safari 5.1 to 6.0 */
+   background: -o-radial-gradient(#210708, #292A2A); /* For Opera 11.6 to 12.0 */
+   background: -moz-radial-gradient(#210708, #292A2A); /* For Firefox 3.6 to 15 */
+   background: radial-gradient(#210708, #292A2A); /* Standard syntax */
+   border-radius: 50%;
+   width: 200px;
+   padding: 30px;
+}
+#centering-screen {
+   margin-top: 25% auto;
+}
